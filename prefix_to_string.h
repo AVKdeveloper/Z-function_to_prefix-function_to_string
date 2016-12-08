@@ -4,9 +4,9 @@
 #include <string>
 #include <vector>
 
-std::string ConvertPrefixToString(std::vector<int> prefix_function);
+std::string ConvertPrefixToString(const std::vector<int>& prefix_function);
 
-std::string ConvertPrefixToString(std::vector<int> prefix_function) {
+std::string ConvertPrefixToString(const std::vector<int>& prefix_function) {
 	// this code make min string by prefix function
 	std::string string = "";
 	if (prefix_function.size() > 0) {

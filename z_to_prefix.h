@@ -4,9 +4,9 @@
 #include <string>
 #include <vector>
 
-std::vector<int> ConvertZToPrefix(std::vector<int> z_function);
+std::vector<int> ConvertZToPrefix(const std::vector<int>& z_function);
 
-std::vector<int> ConvertZToPrefix(std::vector<int> z_function) {
+std::vector<int> ConvertZToPrefix(const std::vector<int>& z_function) {
 	std::vector<int> prefix_function;
 	prefix_function.resize(z_function.size());
 	std::fill(prefix_function.begin(), prefix_function.end(), 0); 
